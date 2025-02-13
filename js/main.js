@@ -450,8 +450,8 @@ setTimeout(()=>{
             formtype = "Get Instant Call Back"
         
 
-         if(formtypeData == "video")
-            formtype = "View Video"
+         if(formtypeData == "Play Video")
+            formtype = "Play Video"
 
         if(formtypeData == "View Floor Plan")
             formtype = "View Floor Plan"
@@ -601,7 +601,7 @@ form.addEventListener('submit', (e) => {
         $("#submitBtn").html("Submitted");
         $("#submitBtn").css("pointer-events","unset");
         // Optionally redirect after successful email send
-        if($(location).attr("href") == "https://adani-airica-kanjurmarg.com/")
+        if($(location).attr("href") == "https://empress-hill.com/")
         {
             variques = "?"
         }
@@ -611,7 +611,7 @@ form.addEventListener('submit', (e) => {
 
 
         
-        window.location.href = "https://adani-airica-kanjurmarg.com?showData=true&type=" + formtypeData + "&plan=" + plantrigger;
+        window.location.href = "https://empress-hill.com?showData=true&type=" + formtypeData + "&plan=" + plantrigger;
     })
     .catch(error => {
         console.error('Error:', error);

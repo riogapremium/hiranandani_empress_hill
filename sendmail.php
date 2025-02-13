@@ -18,9 +18,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     
     // echo $query['email'];
-    $link = "bit.ly/A-airica ";
-    $website = "https://adani-airica-kanjurmarg.com/";
-    $salesnumber = "919867160002";
+    $link = "bit.ly/H-emprss";
+    $website = "https://empress-hill.com/";
+    $salesnumber = "917700960480";
 
     $ProjectName = htmlspecialchars($_POST['project_name'] ?? '');
     $namenew = htmlspecialchars($_POST['name'] ?? '');
@@ -117,7 +117,8 @@ curl_setopt_array($curl2, [
                 "to" => [
                     ["name" => "Rioga Premium", "email" => "info@riogapremium.com"],
                     ["name" => "Yash S", "email" => "yashs@riogapremium.com"],
-                    ["name" => "Aasim S", "email" => "aasims@riogapremium.com"],
+                    ["name" => "Shweta M", "email" => "shwetam@riogapremium.com"],
+                    ["name" => "Ritesh K", "email" => "riteshk@riogapremium.com"],
                     
                 ],
                 "variables" => [
